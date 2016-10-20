@@ -6,67 +6,73 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-.logo {
-	margin-left: 110px;
-}
-.dark {
-	background-color: #271657;
-}
-.menu-item {
-	margin-right: 50px;
-    display: inline-block
-}
-.menu-item-selected {
-	color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-color: #ff2c49;
-}
-.menu-item-deselected {
-	color: #9788d8;
-}
-.menu-item-deselected:hover {
-    border-bottom-style: solid;
-    border-bottom-color: #ff2c49;
-}
-.hyped-bg {
-	background-image: url('../HYPED.png');
-	background-size: 70%;
-	background-position: center; 
-	background-repeat: no-repeat;
-}
-.light {
-	background-color: #3b2178;
-}
-.small-text-color {
-	color: #9788d8;
-}
-.button-color {
-	background-color: #e62e71;
-}
-.diagonal-split-background{
-  background-color: #271657;
-  background-image: -webkit-linear-gradient(86deg, #271657 50%, #3b2178 50%);
-}
-.diagonal-split-background2{
-  background-color: #3b2178;
-  background-image: -webkit-linear-gradient(94deg, #3b2178 50%, #271657 50%);
-}
-.round-button-color {
-	color: black;
-	background-color: #3b2278;
-}
-.icon-color {
-	color:#271657;
-}
-.carousel-arrow {
-	height: 400px;
-}
-.team-carousel-color {
-	color: #513791;
-}
+ .icon-block {
+ 	padding: 0 15px;
+ }
+ .icon-block .material-icons {
+ 	font-size: inherit;
+ }
+ .logo {
+ 	margin-left: 110px;
+ }
+ .dark {
+ 	background-color: #271657;
+ }
+ .menu-item {
+ 	margin-right: 50px;
+ 	display: inline-block
+ }
+ .cursor-pointer:hover {
+ 	cursor: pointer;
+ }
+ .menu-item-selected {
+ 	color: #ffffff;
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #ff2c49;
+ }
+ .menu-item-deselected {
+ 	color: #9788d8;
+ }
+ .menu-item-deselected:hover {
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #ff2c49;
+ }
+ .menu-button {
+ 	display: none;
+ }
+ .hyped-bg {
+ 	background-image: url('../HYPED.png');
+ 	background-size: 70%;
+ 	background-position: center; 
+ 	background-repeat: no-repeat;
+ }
+ .light {
+ 	background-color: #3b2178;
+ }
+ .small-text-color {
+ 	color: #9788d8;
+ }
+ .button-color {
+ 	background-color: #e62e71;
+ }
+ .diagonal-split-background{
+ 	background-color: #271657;
+ 	background-image: -webkit-linear-gradient(86deg, #271657 50%, #3b2178 50%);
+ }
+ .diagonal-split-background2{
+ 	background-color: #3b2178;
+ 	background-image: -webkit-linear-gradient(94deg, #3b2178 50%, #271657 50%);
+ }
+ .round-button-color {
+ 	color: black;
+ 	background-color: #3b2278;
+ }
+ .icon-color {
+ 	color:#271657;
+ }
+ .carousel-arrow {
+ 	height: 400px;
+ }
+ .team-carousel-color {
+ 	color: #513791;
+ }

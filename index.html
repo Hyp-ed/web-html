@@ -16,9 +16,8 @@
 
 
 	<!-- Intro -->
-	<div class="light">
-		<br>
-
+	<div id="home" class="light">
+	<br>
 
 		<!-- Sidebar -->
 		<div class="container hide-on-large-only">
@@ -32,15 +31,28 @@
 					<br>
 					<br>
 				</li>
-				<li><a href="#home" class="white-text">Home</a></li>
-				<li><a href="#about" class="white-text">About</a></li>
-				<li><a href="#theteam" class="white-text">The Team</a></li>
-				<li><a href="#!" class="white-text">Blog</a></li>
+				<li><a class="white-text tohome">Home</a></li>
+				<li><a class="white-text toabout">About</a></li>
+				<li><a class="white-text toteam">The Team</a></li>
+				<li><a class="white-text">Blog</a></li>
 				<li><a href="#!" class="white-text">Press</a></li>
 			</ul>
 			<a href="#" data-activates="slide-out" class="button-collapse"><img src="ORIGG MARK.png"></a>
 		</div>
 
+
+
+
+		<div class="fixed-action-btn click-to-toggle horizontal menu-button" style="top: 24px; right: 24px;">
+			<a class="btn-floating btn-large light z-depth-2">
+				<i class="large material-icons">search</i>
+			</a>
+			<ul>
+				<li><a class="btn-floating dark tohome"><i class="material-icons">home</i></a></li>
+				<li><a class="btn-floating dark toabout"><i class="material-icons">text_format</i></a></li>
+				<li><a class="btn-floating dark toteam"><i class="material-icons">people</i></a></li>
+			</ul>
+		</div>
 
 		<!-- Menu items -->
 		<div class="hide-on-med-and-down">
@@ -48,63 +60,149 @@
 				<img src="ORIGG MARK.png">
 			</div>
 			<a href="#">
-				<div class="menu-item-deselected menu-item right medium">
+				<div class="menu-item-deselected menu-item cursor-pointer right medium">
 					<h6>Press</h6>
 				</div>
 			</a>
 			<a href="#">
-				<div class="menu-item-deselected menu-item right">
+				<div class="menu-item-deselected menu-item cursor-pointer right">
 					<h6>Blog</h6>
 				</div>
 			</a>
 			<a href="#">
-				<div class="menu-item-deselected menu-item right">
+				<div class="menu-item-deselected menu-item cursor-pointer right">
 					<h6>Contact</h6>
 				</div>
 			</a>
-			<a href="#theteam">
-				<div class="menu-item-deselected menu-item right">
+			<a id="toteam">
+				<div class="menu-item-deselected menu-item cursor-pointer toteam right">
 					<h6>The Team</h6>
 				</div>
 			</a>
-			<a href="#about">
-				<div class="menu-item-deselected menu-item right">
-					<h6>About</h6>
-				</div>
-			</a>
-			<a href="#">
-				<div class="menu-item-selected menu-item right">
-					<h6>Home</h6>
-				</div>
-			</a>
+			<div class="menu-item-deselected menu-item cursor-pointer right toabout">
+				<h6>About</h6>
+			</div>
+			<div class="menu-item-selected menu-item cursor-pointer tohome right">
+				<h6>Home</h6>
+			</div>
 		</div>
+
 
 
 		<!-- Typo & Graphic -->
 		<br>
 		<br>
-		<a name="home">
-			<div class="row hyped-bg">
-				<div class="col s12 m12 l6">
-					<div class="container">
-						<h2 class="white-text"><b>When hours become minutes</b></h2>
-						<div class="small-text-color">
-							<h5>We are HypED. A team of 50 students from the University of Edinburgh’s Engineering, Economic and Business Schools. We are collaborating to develop Hyperloop and build the future of transportation.</h5>
-						</div>
-						<br>
-						<a href="#" class="waves-effect waves-light btn-large button-color">Learn more</a>
-						<br>
+		<div class="row hyped-bg">
+			<div class="col s12 m12 l6">
+				<div class="container">
+					<h2 class="white-text"><b>When hours become minutes</b></h2>
+					<div class="small-text-color">
+						<h5>We are HypED. A team of 50 students from the University of Edinburgh’s Engineering, Economic and Business Schools. We are collaborating to develop Hyperloop and build the future of transportation.</h5>
 					</div>
-				</div>
-				<div class="col s12 m12 l6">
 					<br>
-					<img src="GRAPHIC.png" width="101%">
+					<a href="http://www.spacex.com/hyperloop" target="_blank" class="waves-effect waves-light btn-large button-color">Learn more</a>
+					<br>
 				</div>
 			</div>
-			<div class="diagonal-split-background center">
+			<div class="col s12 m12 l6">
+				<br>
+				<img src="GRAPHIC.png" width="101%">
+			</div>
+		</div>
+
+
+
+		<!-- Transition -->
+		<div class="diagonal-split-background center">
+			<br>
+			<br>
+			<a class="btn-floating btn waves-effect waves-light round-button-color toabout"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+
+
+	<br>
+
+	<!-- About -->
+	<div class="center">
+		<br>
+		<br>
+		<div id="about" class="center conatiner">
+			<div class="small-text-color container">
+				<div class="container">
+					<img src="ABOUT.png" width="90%">
+					<br>
+					<br>
+					<h5>
+						The HypED pod introduces advanced new technologies to offer a faster, safer and more comfortable experience. The pod has been designed from the ground up to employ renewable energy solutions and further the advances in autonomous travel. This is Hyperloop.</h5>
+					</div>
+					<br>
+					<br>
+					<img src="SHUTTLE.png" width="95%">
+					<br>
+					<a class="btn-floating btn waves-effect waves-light round-button-color toabout2"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+				</div>
+			</div>
+
+
+
+			<!-- More about -->
+			<div class="center container">
+				<div class="row">
+					<br>
+					<div id="about2" class="col s12 m6 l6">
+						<i class="material-icons medium white-text">people</i>
+						<h4 class="white-text">
+							Designed for people
+						</h4>
+						<p class="small-text-color container">
+							The sleek, modern interior provides comfort and serenity for travel. Modular seating and a fast pod-loading system offers revolutionary solutions to any form of mass transport.
+						</p>
+						<br>
+					</div>
+					<div class="col s12 m6 l6">
+						<i class="material-icons medium white-text">volume_off</i>
+						<h4 class="white-text">
+							Smooth and silent
+						</h4>
+						<p class="small-text-color container">
+							‘Magnetic Levitation’ and electric propulsion allows the pod to glide seamlessly and quickly through the low-pressure tube without making a sound. 
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m6 l6">
+						<i class="material-icons medium white-text">flash_on</i>
+						<h4 class="white-text">
+							Powered by electricity
+						</h4>
+						<p class="small-text-color container">
+							Hyperloop is supercharged by electric propulsion allowing for rapid acceleration. The pod produces zero carbon emissions, utilising clean, sustainable technologies including renewable energy.
+						</p>
+						<br>
+					</div>
+					<div class="col s12 m6 l6">
+						<i class="material-icons medium white-text">settings</i>
+						<h4 class="white-text">
+							Autonomous
+						</h4>
+						<p class="small-text-color container">
+							Hyperloop is fully autonomous,  implementing a high factor of safety and aiding in maximising the pod’s speed, stability and performance throughout your journey.
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- Transition -->
+			<div class="diagonal-split-background2">
 				<br>
 				<br>
-				<a href="#about" class="btn-floating btn waves-effect waves-light round-button-color"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+				<a class="btn-floating btn waves-effect waves-light round-button-color toteam"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
 				<br>
 				<br>
 				<br>
@@ -112,312 +210,400 @@
 		</div>
 
 
-		<br>
 
-		<!-- About -->
-		<div class="center">
+		<!-- The team -->
+		<div class="light">
 			<br>
 			<br>
-			<div class="center conatiner">
-				<div class="small-text-color container">
-					<div class="container">
-						<a name="about">
-							<img src="ABOUT.png" width="90%">
-							<br>
-							<br>
-							<h5>
-								The HypED pod introduces advanced new technologies to offer a faster, safer and more comfortable experience. The pod has been designed from the ground up to employ renewable energy solutions and further the advances in autonomous travel. This is Hyperloop.</h5>
-							</div>
-							<br>
-							<br>
-							<img src="SHUTTLE.png" width="95%">
-							<br>
-							<a href="#about2" class="btn-floating btn waves-effect waves-light round-button-color"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+			<div class="container">
+				<div class="container">
+					<img id="team" src="The Team.png" width="100%">
+				</div>
+			</div>
+			<br>
+			<br>
+
+
+
+			<!-- Top people -->
+			<div class="row container">
+				<div class="col s12 m6 l4">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator dark" src="flat pic.png">
+						</div>
+						<div class="card-content dark">
+							<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+							<p class="white-text">Main guy 1</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this person, links can be put in here too</p>
 						</div>
 					</div>
-					<div class="center container">
-						<div class="row">
-							<br>
-							<div class="col s12 m6 l6">
-								<a name="about2">
-									<i class="material-icons medium white-text">people</i>
-									<h4 class="white-text">
-										Designed for people
-									</h4>
-									<p class="small-text-color container">
-										The sleek, modern interior provides comfort and serenity for travel. Modular seating and a fast pod-loading system offers revolutionary solutions to any form of mass transport.
-									</p>
-									<br>
-								</div>
-								<div class="col s12 m6 l6">
-									<i class="material-icons medium white-text">volume_off</i>
-									<h4 class="white-text">
-										Smooth and silent
-									</h4>
-									<p class="small-text-color container">
-										‘Magnetic Levitation’ and electric propulsion allows the pod to glide seamlessly and quickly through the low-pressure tube without making a sound. 
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col s12 m6 l6">
-									<i class="material-icons medium white-text">flash_on</i>
-									<h4 class="white-text">
-										Powered by electricity
-									</h4>
-									<p class="small-text-color container">
-										Hyperloop is supercharged by electric propulsion allowing for rapid acceleration. The pod produces zero carbon emissions, utilising clean, sustainable technologies including renewable energy.
-									</p>
-									<br>
-								</div>
-								<div class="col s12 m6 l6">
-									<i class="material-icons medium white-text">settings</i>
-									<h4 class="white-text">
-										Autonomous
-									</h4>
-									<p class="small-text-color container">
-										Hyperloop is fully autonomous,  implementing a high factor of safety and aiding in maximising the pod’s speed, stability and performance throughout your journey.
-									</p>
-								</div>
-							</div>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator dark" src="flat pic.png">
 						</div>
-						<div class="diagonal-split-background2">
-							<br>
-							<br>
-							<a href="#theteam" class="btn-floating btn waves-effect waves-light round-button-color"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
-							<br>
-							<br>
-							<br>
+						<div class="card-content dark">
+							<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+							<p class="white-text">Main guy 2</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this person, links can be put in here too</p>
 						</div>
 					</div>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator dark" src="flat pic.png">
+						</div>
+						<div class="card-content dark">
+							<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+							<p class="white-text">Main guy 3</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this person, links can be put in here too</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
 
-					<div class="light">
-						<a name="theteam">
-							<br>
-							<br>
-							<div class="container">
-								<div class="container">
-									<img src="The Team.png" width="100%">
-								</div>
+
+			<!-- Static Pod -->
+			<div class="hyped-bg">
+				<div id="hideshowstatic" value="hide/show" class="center container cursor-pointer">
+					<h4 class="white-text">Static Pod Subteam</h4>
+					<a class="waves-effect waves-light btn-flat small-text-color"><i class="material-icons right">arrow_drop_down</i>Show members</a>
+				</div>
+				<br>
+				<div id='contentstatic' class="row container default-hide ">
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
 							</div>
-							<br>
-							<br>
-							<div id="hideshowstatic" value="hide/show" class="center">
-								<h4 class="white-text">Static Pod Subteam</h4>
-								<a class="waves-effect waves-light btn-flat white-text"><i class="material-icons right">arrow_drop_down</i>Show members</a>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Head of Static Pod</p>
 							</div>
-							<br>
-							<div id='contentstatic' class="row container default-hide">
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Head of Static Pod</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<br>
-							<div id="hideshowsmart" value="hide/show" class="center">
-								<h4 class="white-text">Smart Pod Subteam</h4>
-								<a class="waves-effect waves-light btn-flat white-text"><i class="material-icons right">arrow_drop_down</i>Show members</a>
-							</div>
-							<br>
-							<div id="contentsmart" class="row container default-hide">
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Head of Smart Pod</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col s12 m4 l3">
-									<div class="card">
-										<div class="card-image waves-effect waves-block waves-light">
-											<img class="activator dark" src="flat pic.png">
-										</div>
-										<div class="card-content dark">
-											<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
-											<p class="white-text">Something else</p>
-										</div>
-										<div class="card-reveal">
-											<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
-											<p>Here is some more information about this person, links can be put in here too</p>
-										</div>
-									</div>
-								</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
 							</div>
 						</div>
 					</div>
 
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
 
 
-					<!--  Scripts-->
-					<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-					<script src="js/materialize.min.js"></script>
-					<script src="js/init.js"></script>
 
-				</body>
-				</html>
+				<!-- Dynamic Pod -->
+				<div id="hideshowdynamic" value="hide/show" class="center container cursor-pointer">
+					<h4 class="white-text">Dynamic Pod Subteam</h4>
+					<a class="waves-effect waves-light btn-flat small-text-color"><i class="material-icons right">arrow_drop_down</i>Show members</a>
+				</div>
+				<br>
+				<div id="contentdynamic" class="row container default-hide">
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Head of Dynamic Pod</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Smart Pod -->
+				<div id="hideshowsmart" value="hide/show" class="center container cursor-pointer">
+					<h4 class="white-text">Smart Pod Subteam</h4>
+					<a class="waves-effect waves-light btn-flat small-text-color"><i class="material-icons right">arrow_drop_down</i>Show members</a>
+				</div>
+				<br>
+				<div id="contentsmart" class="row container default-hide">
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Head of Smart Pod</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/init.js"></script>
+
+</body>
+</html>
