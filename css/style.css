@@ -15,6 +15,9 @@
 .logo {
 	margin-left: 110px;
 }
+.dark {
+	background-color: #271657;
+}
 .menu-item {
 	margin-right: 50px;
     display: inline-block
@@ -63,4 +66,7 @@
 }
 .carousel-arrow {
 	height: 400px;
+}
+.team-carousel-color {
+	color: #513791;
 }
