@@ -37,8 +37,8 @@
 	background-position: center; 
 	background-repeat: no-repeat;
 }
-.intro {
-	background-color: #301f62;
+.light {
+	background-color: #3b2178;
 }
 .small-text-color {
 	color: #9788d8;
@@ -47,9 +47,12 @@
 	background-color: #e62e71;
 }
 .diagonal-split-background{
-	heigh: 0px;
   background-color: #271657;
-  background-image: -webkit-linear-gradient(86deg, #271657 50%, #301f62 50%);
+  background-image: -webkit-linear-gradient(86deg, #271657 50%, #3b2178 50%);
+}
+.diagonal-split-background2{
+  background-color: #3b2178;
+  background-image: -webkit-linear-gradient(94deg, #3b2178 50%, #271657 50%);
 }
 .round-button-color {
 	color: black;
@@ -57,4 +60,7 @@
 }
 .icon-color {
 	color:#271657;
+}
+.carousel-arrow {
+	height: 400px;
 }
