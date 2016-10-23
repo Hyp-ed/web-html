@@ -38,6 +38,22 @@
           scrollTop: $("#team").offset().top
         }, 1000);
       });
+      $(".tocontact").click(function() {
+        $('html, body').animate({
+          scrollTop: $("#contact").offset().top
+        }, 1000);
+      });
+
+
+      $(".closeButton").click(function() {
+        $('.fixed-action-btn').closeFAB();
+      });
+
+      $(".toggletext").click(function () {
+            $(this).text(function(i, v){
+               return v === 'Show fewer' ? 'Show more' : 'Show fewer'
+            })
+        });
     });
 
     jQuery(document).ready(function(){

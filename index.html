@@ -4,6 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 	<meta name="theme-color" content="#271657" />
+	<meta property="og:image" content="hyped-logo-grey-bg.jpg">
+	<link rel="icon" href="favicon.ico" />
 	<title>HypED</title>
 
 	<!-- CSS  -->
@@ -17,7 +19,7 @@
 
 	<!-- Intro -->
 	<div id="home" class="light">
-	<br>
+		<br>
 
 		<!-- Sidebar -->
 		<div class="container hide-on-large-only">
@@ -26,7 +28,7 @@
 					<br>
 					<br>
 					<div class="center">
-						<img src="https://hyp-ed.com/wp-content/themes/hyped/images/hyped-logo.png" width=90%>
+						<img src="hyped-logo.png" width=90%>
 					</div>
 					<br>
 					<br>
@@ -34,8 +36,9 @@
 				<li><a class="white-text tohome">Home</a></li>
 				<li><a class="white-text toabout">About</a></li>
 				<li><a class="white-text toteam">The Team</a></li>
+				<li><a class="white-text tocontact">Contact</a></li>
 				<li><a class="white-text">Blog</a></li>
-				<li><a href="#!" class="white-text">Press</a></li>
+				<li><a class="white-text">Press</a></li>
 			</ul>
 			<a href="#" data-activates="slide-out" class="button-collapse"><img src="ORIGG MARK.png"></a>
 		</div>
@@ -48,9 +51,10 @@
 				<i class="large material-icons">search</i>
 			</a>
 			<ul>
-				<li><a class="btn-floating dark tohome"><i class="material-icons">home</i></a></li>
-				<li><a class="btn-floating dark toabout"><i class="material-icons">text_format</i></a></li>
-				<li><a class="btn-floating dark toteam"><i class="material-icons">people</i></a></li>
+				<li><a class="btn-floating dark tohome closeButton"><i class="material-icons">home</i></a></li>
+				<li><a class="btn-floating dark toabout closeButton"><i class="material-icons">info</i></a></li>
+				<li><a class="btn-floating dark toteam closeButton"><i class="material-icons">people</i></a></li>
+				<li><a class="btn-floating dark tocontact closeButton"><i class="material-icons">email</i></a></li>
 			</ul>
 		</div>
 
@@ -69,17 +73,13 @@
 					<h6>Blog</h6>
 				</div>
 			</a>
-			<a href="#">
-				<div class="menu-item-deselected menu-item cursor-pointer right">
-					<h6>Contact</h6>
-				</div>
-			</a>
-			<a id="toteam">
-				<div class="menu-item-deselected menu-item cursor-pointer toteam right">
-					<h6>The Team</h6>
-				</div>
-			</a>
-			<div class="menu-item-deselected menu-item cursor-pointer right toabout">
+			<div class="menu-item-deselected menu-item cursor-pointer tocontact right">
+				<h6>Contact</h6>
+			</div>
+			<div class="menu-item-deselected menu-item cursor-pointer toteam right">
+				<h6>The Team</h6>
+			</div>
+			<div class="menu-item-deselected menu-item cursor-pointer toabout right">
 				<h6>About</h6>
 			</div>
 			<div class="menu-item-selected menu-item cursor-pointer tohome right">
@@ -116,7 +116,7 @@
 		<div class="diagonal-split-background center">
 			<br>
 			<br>
-			<a class="btn-floating btn waves-effect waves-light round-button-color toabout"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+			<a class="btn-floating btn waves-effect waves-light round-button-color toabout closeButton"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
 			<br>
 			<br>
 			<br>
@@ -143,7 +143,7 @@
 					<br>
 					<img src="SHUTTLE.png" width="95%">
 					<br>
-					<a class="btn-floating btn waves-effect waves-light round-button-color toabout2"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+					<a class="btn-floating btn waves-effect waves-light round-button-color toabout2 closeButton"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
 				</div>
 			</div>
 
@@ -202,7 +202,7 @@
 			<div class="diagonal-split-background2">
 				<br>
 				<br>
-				<a class="btn-floating btn waves-effect waves-light round-button-color toteam"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+				<a class="btn-floating btn waves-effect waves-light round-button-color toteam closeButton"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
 				<br>
 				<br>
 				<br>
@@ -226,7 +226,7 @@
 
 
 			<!-- Top people -->
-			<div class="row container">
+			<!-- <div class="row container">
 				<div class="col s12 m6 l4">
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light">
@@ -272,19 +272,15 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 
 
 
 			<!-- Static Pod -->
-			<div class="hyped-bg">
-				<div id="hideshowstatic" value="hide/show" class="center container cursor-pointer">
-					<h4 class="white-text">Static Pod Subteam</h4>
-					<a class="waves-effect waves-light btn-flat small-text-color"><i class="material-icons right">arrow_drop_down</i>Show members</a>
-				</div>
-				<br>
-				<div id='contentstatic' class="row container default-hide ">
+			<div class="center">
+				<h4 class="white-text">Static Pod Subteam</h4>
+				<div class="row container">
 					<div class="col s12 m4 l3">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
@@ -349,17 +345,56 @@
 						</div>
 					</div>
 				</div>
+
+				<div id='contentstatic' class="row container default-hide ">
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m4 l3">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator dark" src="flat pic.png">
+							</div>
+							<div class="card-content dark">
+								<span class="card-title activator white-text">Adam Pavlisin<i class="material-icons right">more_vert</i></span>
+								<p class="white-text">Something else</p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Adam Pavlisin<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this person, links can be put in here too</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container center">
+					<a id="hideshowstatic" value="hide/show" class="waves-effect waves-light btn-large button-color toggletext">Show more</a>
+					<br>
+				</div>
+
 				<br>
+				<br>
+				<div class=" container divider button-color"></div>
 
 
 
 				<!-- Dynamic Pod -->
-				<div id="hideshowdynamic" value="hide/show" class="center container cursor-pointer">
-					<h4 class="white-text">Dynamic Pod Subteam</h4>
-					<a class="waves-effect waves-light btn-flat small-text-color"><i class="material-icons right">arrow_drop_down</i>Show members</a>
-				</div>
+				<h4 class="white-text">Dynamic Pod Subteam</h4>
 				<br>
-				<div id="contentdynamic" class="row container default-hide">
+				<div class="row container">
 					<div class="col s12 m4 l3">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
@@ -423,6 +458,9 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div id="contentdynamic" class="row container default-hide">
+					
 
 					<div class="col s12 m4 l3">
 						<div class="card">
@@ -456,16 +494,21 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="center">
+					<a id="hideshowdynamic" value="hide/show" class="waves-effect waves-light btn-large button-color toggletext">Show more</a>
+				</div>
+
+				<br>
+				<br>
+				<div class=" container divider button-color"></div>
 
 
 
 				<!-- Smart Pod -->
-				<div id="hideshowsmart" value="hide/show" class="center container cursor-pointer">
-					<h4 class="white-text">Smart Pod Subteam</h4>
-					<a class="waves-effect waves-light btn-flat small-text-color"><i class="material-icons right">arrow_drop_down</i>Show members</a>
-				</div>
+				<h4 class="white-text">Smart Pod Subteam</h4>
 				<br>
-				<div id="contentsmart" class="row container default-hide">
+				<div class="row container">
 					<div class="col s12 m4 l3">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
@@ -529,6 +572,9 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div id="contentsmart" class="row container default-hide">
+					
 
 					<div class="col s12 m4 l3">
 						<div class="card">
@@ -594,8 +640,94 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="center">
+					<a id="hideshowsmart" value="hide/show" class="waves-effect waves-light btn-large button-color toggletext">Show more</a>
+				</div>
+
+				<br>
+				<br>
 			</div>
 		</div>
+
+
+
+
+		<!-- Transition -->
+		<div class="diagonal-split-background center">
+			<br>
+			<br>
+			<a class="btn-floating btn waves-effect waves-light round-button-color tocontact closeButton"><i class="material-icons" style="color:#271657;">keyboard_arrow_down</i></a>
+			<br>
+			<br>
+			<br>
+		</div>
+
+
+
+
+		<div>
+			<br>
+			<br>
+			<div class="container">
+				<div class="container">
+					<img id="contact" src="CONTACT.png" width="100%">
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row contact-bg">
+				<div class="col s12 m12 l1"></div>
+				<div class="col s12 m12 l6">
+					<img src="Ticket.png" width="100%">
+				</div>
+				<div class="col s12 m12 l3">
+					<div class="input-field white-text">
+						<input id="email" type="email" class="validate" required>
+						<label for="email">Email</label>
+					</div>
+					<div class="input-field white-text">
+						<textarea id="message" type="text" class="materialize-textarea"></textarea>
+						<label for="message">Message</label>
+					</div>
+					<div class="center">
+						<button class="btn waves-effect waves-light button-color" type="submit" value="Submit" name="send">
+							Send
+							<i class="material-icons right">send</i>
+						</button>
+					</div>
+				</div>
+				<div class="s12 m12 l2"></div>
+			</div>
+
+		</div>
+
+
+
+		<!-- Footer -->
+		<div id="contact" class="footer-bg center">
+			<br>
+			<br>
+			<img src="UoE Logo.png" width="200px">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<a class="btn-flat waves-effect waves-light white-text tohome">Home</a>
+			<a class="btn-flat waves-effect waves-light white-text toabout">About</a>
+			<a class="btn-flat waves-effect waves-light white-text toteam">The Team</a>
+			<a class="btn-flat waves-effect waves-light white-text tocontact">Contact</a>
+			<a class="btn-flat waves-effect waves-light white-text ">Blog</a>
+			<a class="btn-flat waves-effect waves-light white-text ">Press</a>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p class="small-text-color">&copy; Hyped 2016. All rights reserved</p>
+		</div>
+
 	</div>
 
 

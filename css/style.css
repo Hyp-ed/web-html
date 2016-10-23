@@ -46,6 +46,19 @@
  	background-position: center; 
  	background-repeat: no-repeat;
  }
+ .footer-bg {
+ 	height: 500px;
+ 	background-image: url('../edinburgh.png');
+ 	background-size: 1378px;
+ 	background-position: center; 
+ 	background-repeat: no-repeat;
+ }
+ .contact-bg {
+ 	background-image: url('../ContactBG.png');
+ 	background-size: 80%;
+ 	background-position: left; 
+ 	background-repeat: no-repeat;
+ }
  .light {
  	background-color: #3b2178;
  }
@@ -55,6 +68,14 @@
  .button-color {
  	background-color: #e62e71;
  }
+ .input-field input[type=email]:focus {
+     border-bottom: 1px solid #e62e71;
+     box-shadow: 0 1px 0 0 #e62e71;
+   }
+ .input-field input[type=text]:focus {
+     border-bottom: 1px solid #e62e71;
+     box-shadow: 0 1px 0 0 #e62e71;
+   }
  .diagonal-split-background{
  	background-color: #271657;
  	background-image: -webkit-linear-gradient(86deg, #271657 50%, #3b2178 50%);
