@@ -25,57 +25,52 @@
       $(".tohome").click(function() {
         $('html, body').animate({
           scrollTop: $("#home").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".toabout").click(function() {
         $('html, body').animate({
           scrollTop: $("#about").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".toabout2").click(function() {
         $('html, body').animate({
           scrollTop: $("#about2").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".toteam").click(function() {
         $('html, body').animate({
           scrollTop: $("#team").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".tocontact").click(function() {
         $('html, body').animate({
           scrollTop: $("#contact").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".tostatic").click(function() {
         $('html, body').animate({
           scrollTop: $("#static").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".todynamic").click(function() {
         $('html, body').animate({
           scrollTop: $("#dynamic").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".tosmart").click(function() {
         $('html, body').animate({
           scrollTop: $("#smart").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".tosponsorship").click(function() {
         $('html, body').animate({
           scrollTop: $("#sponsorship").offset().top
-        }, 500);
+        }, 1000);
       });
       $(".tobusiness").click(function() {
         $('html, body').animate({
           scrollTop: $("#business").offset().top
-        }, 500);
-      });
-      $(".topress").click(function() {
-        $('html, body').animate({
-          scrollTop: $("#press").offset().top
-        }, 500);
+        }, 1000);
       });
 
 
@@ -98,31 +93,16 @@
       jQuery('#hideshowstatic').on('click', function(event) {        
        jQuery('#contentstatic').toggle('hidden')('show');
      });
-      jQuery('#hidestatic').on('click', function(event) {        
-       jQuery('#contentstatic').toggle('hidden')('show');
-     });
       jQuery('#hideshowsmart').on('click', function(event) {        
-       jQuery('#contentsmart').toggle('hidden')('show');
-     });
-      jQuery('#hidesmart').on('click', function(event) {        
        jQuery('#contentsmart').toggle('hidden')('show');
      });
       jQuery('#hideshowdynamic').on('click', function(event) {        
        jQuery('#contentdynamic').toggle('hidden')('show');
      });
-      jQuery('#hidedynamic').on('click', function(event) {        
-       jQuery('#contentdynamic').toggle('hidden')('show');
-     });
       jQuery('#hideshowbusiness').on('click', function(event) {        
        jQuery('#contentbusiness').toggle('hidden')('show');
      });
-      jQuery('#hidebusiness').on('click', function(event) {        
-       jQuery('#contentbusiness').toggle('hidden')('show');
-     });
       jQuery('#hideshowsponsorship').on('click', function(event) {        
-       jQuery('#contentsponsorship').toggle('hidden')('show');
-     });
-      jQuery('#hidesponsorship').on('click', function(event) {        
        jQuery('#contentsponsorship').toggle('hidden')('show');
      });
     });
