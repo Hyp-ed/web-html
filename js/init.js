@@ -15,10 +15,10 @@
     });
     
     $(document).ready(function(){
-    $('#sub1').hover(
-      function() { $('#welcome').show(); },
-      function() { $('#welcome').hide(); }
-    );
+      $('#sub1').hover(
+        function() { $('#welcome').show(); },
+        function() { $('#welcome').hide(); }
+        );
       $('.carousel').carousel();
       $('.default-hide').hide();
 
@@ -87,11 +87,12 @@
         function() { $('.fixed-action-btn').closeFAB();; }
         );
 
+
       $(".toggletext").click(function () {
-            $(this).text(function(i, v){
-               return v === 'Show fewer' ? 'Show more' : 'Show fewer'
-            })
-        });
+        $(this).text(function(i, v){
+         return v === 'Show fewer' ? 'Show more' : 'Show fewer'
+       })
+      });
     });
 
     jQuery(document).ready(function(){

@@ -49,6 +49,12 @@
  .menu-button {
  	display: none;
  }
+ .floating-hover {
+ 	top: 24px;
+ 	right: 24px;
+ 	width: 400px;
+ 	height: 100px;
+ }
  .pink {
  	color: #ff2c49;
  }
@@ -128,3 +134,12 @@
  .team-carousel-color {
  	color: #513791;
  }
+ .card:hover a p.card-title-hover span{
+  display: none;
+}
+ .card:hover a p.card-title-hover:after{
+  content: 'ADD';
+}
+.height {
+	min-height: 500px;
+}
