@@ -59,7 +59,7 @@
  	color: #ff2c49;
  }
  .hyped-bg {
- 	background-image: url('../HYPED.png');
+ 	background-image: url('../images/HYPED.png');
  	background-size: 70%;
  	background-position: center; 
  	background-repeat: no-repeat;
@@ -69,7 +69,7 @@
  and (min-width : 1378px) {
  	.footer-bg{
  		height: 500px;
- 		background-image: url('../edinburgh.png');
+ 		background-image: url('../images/edinburgh.png');
  		/*background-size: 1378px;*/
  		background-size: 100%;
  		background-position: center; 
@@ -80,7 +80,7 @@
  and (max-width : 1378px) {
  	.footer-bg{
  		height: 500px;
- 		background-image: url('../edinburgh.png');
+ 		background-image: url('../images/edinburgh.png');
  		background-size: 1378px;
  		/*background-size: 100%;*/
  		background-position: center; 
@@ -91,7 +91,7 @@
 
  
  .contact-bg {
- 	background-image: url('../ContactBG.png');
+ 	background-image: url('../images/ContactBG.png');
  	background-size: 80%;
  	background-position: left; 
  	background-repeat: no-repeat;

@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "noxive.music@gmail.com";
  
-    $email_subject = "Hyp form submission";
+    $email_subject = "HypED Contact Form Submission";
  
      
  
@@ -84,7 +84,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Form details below.\n\n";
+    $email_message = "";
  
      
  
