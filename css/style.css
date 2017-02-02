@@ -64,6 +64,16 @@
  	background-position: center; 
  	background-repeat: no-repeat;
  }
+ .newsletterdiv {
+ 	margin-top: 80px;
+ 	margin-bottom: 60px;
+ }
+ #contact-thankyou {
+ 	display: block;
+ 	margin-top: 20px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
 
  @media only screen 
  and (min-width : 1378px) {

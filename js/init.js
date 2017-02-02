@@ -77,6 +77,45 @@
           scrollTop: $("#press").offset().top
         }, 500);
       });
+      
+      function validateEmail(email) {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+      }
+
+      $("#contact").submit(function(e) {
+        e.preventDefault();
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+
+        if(validateEmail(email)) {
+          exponea.track("form submit", {
+            name: name,
+            email: email,
+            message: message
+          });
+          exponea.identify(email);
+          exponea.update({ email: email });
+
+          document.getElementById("contactform").reset();
+          document.getElementById("#contact-thankyou").style.display = "block";
+        }
+      });
+
+      $("#newsletter").submit(function(e) {
+        e.preventDefault();
+        var email = $("#email").val();
+
+        if(validateEmail(email)) {
+          exponea.track("newsletter", {
+            email: email,
+          });
+          exponea.identify(email);
+          exponea.update({ email: email, newsletter: true });
+        }
+      });
+
 
 
       $(".closeButton").click(function() {
